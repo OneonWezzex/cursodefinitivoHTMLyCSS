@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* Este combinador de hermano adyacente o cercano aplica al que tenga el primer selector
+inmediatamente arriba del segundo */
+/*h2 + p
+{
+    color: red;
+}*/
+
+/* Este combinador de hermano general aplica cuando el primer selector existe en la misma
+linea de etiquetas dentro de un contenedor */
+/*h2 ~ p
+{
+    color: red;
+}*/
+
+/* Este combinador de hijo aplica cuando el segundo selector es hijo directo del primer
+selector */
+/*div > p
+{
+    color: red;
+}*/
+
+/* Este combinador de descendiente es el m+as común y aplica a cualquier cantidad del
+segundo selector exista dentro del primero */
+div p 
+{
+    color: red;
+}
